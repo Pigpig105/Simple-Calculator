@@ -49,3 +49,13 @@ document.getElementById("divisionButton").onclick = function(){
     quotient = division1 / division2;
     document.getElementById("divisionLabel").innerHTML = quotient;
 }
+
+let rounding1;
+let roundingAnswer;
+
+document.getElementById("roundingButton").onclick = function(){
+    rounding1 = document.getElementById("rounding1").value;
+    rounding1 = Number(division1);
+    roundingAnswer = math.round(rounding1)
+    document.getElementById("roundingLabel").innerHTML = roundingAnswer;
+}
