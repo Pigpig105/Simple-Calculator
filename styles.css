@@ -15,3 +15,24 @@
     width: 50%;
     padding: 20px;
 }
+
+#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13, #button14, #button15, #button16 {
+    background-color: #a8d5e5;
+    border: none;
+    color: black;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.calculatorLabel {
+    background-color: white;
+    padding: 15px 100px;
+    color: black;
+    text-align: right;
+    font-size: 30px;
+}
